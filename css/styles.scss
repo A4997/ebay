@@ -1,0 +1,386 @@
+$fontcolor:#f9f5ec;
+$fonthover:#ee7600;
+$bgcolor:black;
+$fontsize:20px;
+
+.dark
+{
+  background-color: $bgcolor;
+  font-family: Arial;
+}
+
+
+#img-content
+{
+  //text-align: center;
+div
+{
+  display: inline-block;
+  width:100%
+}
+}
+#first
+{
+  background-color: $fontcolor;
+  box-shadow:5px 2px 20px  #888888 ;
+  font-weight: bold;
+  #switch{
+    margin-top: 10px;
+    width: 100px;
+    font-size: $fontsize;
+    font-weight: bold;
+    height: 40px;
+    margin-left: 300px;
+    cursor: pointer;
+border: 1px solid black;
+border-radius: 20px;
+    text-align: center;
+  padding-top: 5px;
+color: #023359;}
+   p
+  {
+    font-size:$fontsize;
+    color: #800000;
+  }
+   a
+  {
+    color: black;
+    font-size: $fontsize;
+  }
+   a:hover
+  {
+    color: $fonthover;
+  }
+
+}
+#logo
+{
+  font-size: $fontsize;
+  img
+  {
+    width: 250px;
+  }
+a{
+  color: $fontcolor;
+}
+ input
+{
+  width: 100px;
+  font-size: $fontsize;
+}
+button{
+  font-size: $fontsize;
+}
+#advanc
+{
+  font-weight: bold;
+  &:hover
+  {color: $fonthover;}
+}
+}
+#underlogo
+{
+  text-align: center;
+  font-size: $fontsize;
+  font-weight: bold;
+  ul li
+  {
+    padding-left: 50px;
+    text-align: center;
+    color: $fontcolor;
+  }
+  #home
+  {
+    color: $fonthover;
+    text-decoration: underline;
+  }
+
+  ul li a
+{
+  color: $fontcolor;
+  &:hover
+  {
+    color: $fonthover;
+    text-decoration: underline;
+  }
+}
+}
+#firstparag
+{
+  background-color: #62ce67;
+  a
+{
+  font-size: 50px;
+  font-weight: bold;
+  color: White;
+  &:hover
+  {text-decoration: none;}
+}
+p
+{
+  font-size: 30px;
+}
+button
+{
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: $fontsize;
+}
+
+}
+#thirdblock
+{
+  margin-top: 10px;
+  #one
+  {
+    font-size: 50px;
+  }
+  a
+  {
+    color: $fontcolor;
+    font-weight: bold;
+    &:nth-child(2)
+    {
+      font-size: 25px;
+      padding-left: 30px;
+
+    }
+    &:hover
+    {
+      color: $fonthover;
+    }
+  }
+  li
+    { display: inline-block;
+      text-align: center;
+  img
+      {
+        border-radius: 100px;
+
+      }
+  }
+  #thirdimages
+  {   text-align: center;
+    li
+      { display: inline-block;
+          margin-left: 50px;
+        font-size: $fontsize;
+    img
+        {
+          border-radius: 100px;
+          margin-bottom: 5px;
+        }
+    }}
+
+}
+#fourthblock{
+  a:first-child{
+    font-size: 50px;
+    color: $fontcolor;
+    font-weight: bold;
+    padding-right: 20px;
+    &:hover
+    {
+      color: $fonthover;
+    }
+  }
+  a:nth-child(2)
+  {
+    font-size: 30px;
+    color: $fontcolor;
+    &:hover
+    {color: $fonthover;}
+
+  }
+  #fourthimages
+  {
+    text-align: center;
+    background-color: white;
+    margin-top: 10px;
+  li{
+    display: inline-block;
+    margin-left: 70px;
+    a
+    {
+      color:#7c1717;
+      font-size: $fontsize;
+      font-weight: bold;
+
+      &:hover
+      {color: $fonthover;}
+    }
+  }
+  #sblock
+  {
+    display: none;
+    text-align: center;
+  }
+  }
+  #scroll
+  {
+    width: 100px;
+    float: right;
+    margin-top: -350px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+}
+#fifthblock
+{
+  #one
+  {
+    color: green;
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 20px;
+    &:hover
+    {
+      color: $fonthover;
+    }
+  }
+  a:nth-child(2)
+  {
+    color: $fontcolor;
+    font-size: $fontsize;
+    &:hover
+    {color: $fonthover;}
+  }
+margin-top: 20px;
+  #fifthimages
+  {
+    text-align: center;
+    word-wrap: break-word;
+    li{
+      display: inline-block;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      //width: 310px;
+      a{
+        font-size:$fontsize;
+
+        &:hover{
+          color: $fonthover;
+        }
+      }
+      img{
+        border-radius: 100px;
+      }
+
+    }
+  }
+}
+#sixthblock
+{
+  #sixthparag
+  {
+    background-color: #83002e;
+    margin-right: -20px;
+    a{
+      color: $fontcolor;
+      font-size: 50px;
+      font-weight: bold;
+      &:hover
+      {
+        text-decoration: none;
+      }
+    }
+    p{
+      margin-top: 50px;
+      font-size: 30px;
+      color: $bgcolor;
+      margin-bottom: 50px;
+    }
+    button
+    {
+      width: 180px;
+      height: 50px;
+      font-size: $fontsize;
+      margin-left: 150px;
+    }
+  }
+}
+#seventhblock
+{
+  ul
+  {
+    list-style-type: none;
+    .head
+    {
+      font-size: 25px;
+      font-weight: bold;
+      color: $fontcolor;
+      &:hover
+      {
+        color: $fonthover;
+      }
+    }
+    .underhead
+    {
+      font-size: $fontsize;
+      color: $fontcolor;
+      opacity: 0.5;
+      &:hover
+      {
+        color: $fonthover;
+      }
+      img{
+        width: 50px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  #topA
+  {
+    #top
+    {
+  width: 200px;
+  cursor: pointer;
+    }
+  }
+}
+footer
+{
+  p{
+    color: $fontcolor;
+    a{
+      color: $fontcolor;
+      opacity: 0.5;
+      &:hover{
+        color: $fonthover;
+      }
+    }
+  }
+}
+.whiteM
+{
+  background-color: white;
+  color: black;
+  #logo a{
+    color: $bgcolor;
+  }
+  #underlogo a{color: $bgcolor;}
+  #thirdblock a{color: $bgcolor;
+  &:hover
+{color: $fonthover;}}
+#fourthblock a{color: $bgcolor;}
+#fifthblock a{color: $bgcolor;
+#fifthimages li  a{color: $bgcolor;
+}
+}
+#seventhblock a{color: $bgcolor;
+&:hover
+{
+  color: $bgcolor;
+}
+}
+}
+.links
+{
+  color: $bgcolor;
+  &:hover
+  {
+    color: $fonthover;
+  }
+}
