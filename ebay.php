@@ -11,7 +11,7 @@
 		<script src="js/bootstrap.js" charset="utf-8"></script>
 		<script src="js/script.js" charset="utf-8"></script>
 	</head>
-	<body class="dark">
+	<body class="dar">
 		<div id="first">
 						<nav class="navbar navbar-expand-md mb-3">
 					    <div class="container-fluid">
